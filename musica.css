@@ -1,0 +1,156 @@
+body {
+    background-image: url('Imagenes/imag1.png');
+}
+
+.menu {
+    width: 1425px;
+    height: 76px;
+    background-color: rgba(0, 197, 59, 0.932);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; /* Espacio adicional debajo del menú */
+}
+
+.orden {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+.listas {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #9eff01; 
+}
+
+.contenedor {
+    padding: 20px; 
+    margin: 20px; 
+}
+
+.cont1, .cont2, .cont3, .cont4, .cont5, .cont6 {
+    margin-bottom: 400px; 
+}
+
+.cont1 {
+    width: 100%;
+    height: 800px;
+    background-image: url('Imagenes/kara.jpg'); 
+    background-size: 600px;
+    background-position: center; 
+}
+
+.cont2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-size: 100%;
+    box-shadow: 10px 10px 10px black;
+    animation: slider 40s alternate infinite;
+}
+
+@keyframes slider {
+    0% { background-image: url('Imagenes/Aesthetic\ Fantasy\ Concept\ Art.jpeg'); }
+    25% { background-image: url('Imagenes/bosque-naturaleza-paisaje-wallpaper-preview.jpg'); }
+    50% { background-image: url('Imagenes/descarga.jpeg'); }
+    75% { background-image: url('Imagenes/Descargar\ fondos\ de\ pantalla\ World\ of\ Warcraft\ Battle\ para\ Azeroth\,\ 4k\,\ 2018\ juegos\,\ WoW\,\ World\ of\ Warcraft\ monitor\ con\ una\ resolución\ 800x600_\ Imagenes\ de\ escritorio.jpeg'); }
+    100% { background-image: url('Imagenes/The\ Sacrifice.jpeg'); }
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cont3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px; 
+}
+
+.vi {
+    display: none;
+}
+
+.vi:target {
+    display: block;
+}
+
+.vid {
+    margin-top: 750px;
+    width: 1060px;
+    height: 515px;
+    border-radius: 10px;
+    margin: 150px auto;
+    box-shadow: 10px 10px 10px rgba(196, 196, 196, 0.7);
+    display: block;
+}
+
+.letra, .letra1, .letra2, .letra3, .letra4, .letra5 {
+    width: 860px;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    line-height: 50px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+marquee {
+    display: block; 
+    white-space: nowrap; 
+}
+
+.cont6, .cont5 {
+    width: 300px;
+    max-width: 450px; 
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgba(237, 224, 154, 0.9);
+    border-radius: 10px;
+}
+
+.cont6 h2, .cont5 h2 {
+    text-align: center;
+}
+
+.cont6 form, .cont5 form {
+    text-align: start;
+    flex-direction: column;
+}
+
+.cont6 label, .cont5 label {
+    margin: 100px 0 5px;
+}
+
+.cont6 input, .cont5 input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+.cont6 button, .cont5 button {
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 5px;
+    border: none;
+}
+
+.cont5 .login-button {
+    background-color: #1176ce; 
+}
+
+.logo {
+    display: block;
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    margin: 0 auto 20px; 
+}
